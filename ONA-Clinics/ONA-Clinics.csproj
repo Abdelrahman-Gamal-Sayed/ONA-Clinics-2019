@@ -243,6 +243,7 @@
     <EmbeddedResource Include="View Report.resx">
       <DependentUpon>View Report.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="dbON3A_Restaurant" />
     <None Include="ON3A_restourents.xsc">
       <DependentUpon>ON3A_restourents.xsd</DependentUpon>
     </None>
