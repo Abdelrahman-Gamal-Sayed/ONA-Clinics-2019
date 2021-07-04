@@ -1,0 +1,61 @@
+CREATE TABLE Paitient(
+Id Int,
+AName Text,
+EName Text,
+NationalID Text,
+Phone Text,
+Gander Text,
+BirthDate Text,
+CreatedDate Text
+);
+
+
+CREATE TABLE Booking(
+BookingCode Int,
+PaitientID Int,
+BookingType Text,
+DetectionType Text,
+Specialization Text,
+Diagnosis Text,
+Price REAL,
+Note Text,
+bookingDate Text
+);
+
+
+CREATE TABLE Detection(
+DetectionCode Int,
+PaitientID Int,
+Note Text,
+DetectionDate Text
+
+);
+
+CREATE TABLE Line(
+LineCode Int,
+PaitientID Int,
+BookingCode Int,
+PaitientAName Text,
+Specialization  Text,
+LineDate  Text
+
+);
+
+
+CREATE TABLE PaitientHestory(
+HestoryCode Int,
+PaitientID Int,
+AName Text,
+Notes Text,
+CreatedDate Text
+);
+
+CREATE TABLE pc(
+
+mac Text
+
+);
+
+
+
+
